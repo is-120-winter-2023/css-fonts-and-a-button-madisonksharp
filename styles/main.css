@@ -143,7 +143,7 @@ aside {
   padding: 0 1rem;
   margin-bottom: 6rem;
 }
-.footer {
+footer {
   padding: 0 1rem;
   position: fixed;
   bottom: 0;
@@ -155,6 +155,9 @@ aside {
 }
 
 /* links and button styles*/
+a {
+  text-decoration: none;
+}
 
 a[href]:link {
   text-decoration: none;
