@@ -95,12 +95,19 @@ img[src$="svg"] {
   --color-accent-light: #e8f7ee; /*Honeydew*/
   --color-accent-dark: #294d4a; /*Dark slate gray*/
 }
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 50rem;
+}
+
 body {
   color: var(--color-background);
   font-family: "PT Sans";
   font-size: 1rem;
   color: #444;
 }
+
 h1 {
   font-family: "Alex Brush";
   font-size: 3rem;
@@ -117,6 +124,14 @@ h3 {
   color: var(--color-secondary);
 }
 
+footer {
+  padding: 0 1rem;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+/* links and button styles*/
+
 a[href]:link {
   text-decoration: none;
 }
@@ -131,11 +146,13 @@ a[href]:hover {
   display: inline-block;
   background-color: aliceblue;
   border: none;
-  color: aquamarine;
+  color: var(--color-primary);
   padding: 15px 32px;
   text-align: center;
   font-size: 2rem;
+  transition: background-color 300ms ease;
 }
 .button:hover {
-  background-color: aqua;
+  color: #d4afb9;
+  background-color: var(--color-primary);
 }
